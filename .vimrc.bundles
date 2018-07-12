@@ -1,0 +1,31 @@
+if &compatible
+  set nocompatible
+end
+
+filetype off
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" Let Vundle manage Vundle
+Bundle 'gmarik/vundle'
+
+" Define bundles via Github repos
+Bundle 'davidhalter/jedi-vim'
+Bundle 'tmhedberg/SimpylFold'
+Bundle 'vim-scripts/indentpython.vim'
+Bundle 'scrooloose/nerdtree'
+Bundle 'scrooloose/syntastic'
+Bundle 'hdima/python-syntax'
+Bundle 'kien/rainbow_parentheses.vim'
+" 缩进提示线
+Bundle 'Yggdroot/indentLine'
+" vim-markdown
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
+Plugin 'iamcco/markdown-preview.vim'
+
+if filereadable(expand("~/.vimrc.bundles.local"))
+  source ~/.vimrc.bundles.local
+endif
+
+filetype on
