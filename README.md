@@ -1,5 +1,7 @@
 # myvim
 
+git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+
 vim +BundleInstall +qall
 
 :BundleList             -列举列表(也就是.vimrc)中配置的所有插件  
