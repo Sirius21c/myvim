@@ -19,6 +19,9 @@ Bundle 'hdima/python-syntax'
 Bundle 'kien/rainbow_parentheses.vim'
 " 缩进提示线
 Bundle 'Yggdroot/indentLine'
+" go
+Bundle 'fatih/vim-go'
+Bundle 'dgryski/vim-godef'
 " vim-markdown
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
