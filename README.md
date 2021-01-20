@@ -1,8 +1,11 @@
 # myvim
 
+cd myvim
+mv .vim .vimrc .vimrc.bundles README.md ../
+cd ..
+rm -rf myvim
 git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 
-mv .vim .vimrc .vimrc.bundles README.md ../
 
 vim +BundleInstall +qall
 
